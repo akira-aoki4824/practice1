@@ -1,0 +1,77 @@
+@charset "utf-8"
+
+/* PC、スマホ共通スタイル */
+/* ============
+PC用のスタイル 
+==============*/
+/* 横幅設定 */
+body {
+  max-width: 1080px;
+  min-width: 960px;
+  margin: 0 0 0 0;
+}
+
+/* ヘッダー */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  margin-left: 200px;
+  width: 220px;
+  height: 69px;
+  flex-shrink: 0;
+  border: 1px solid var(--gray-scale-pure-black,#000);
+  color: #000;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 34px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#nav-pc {
+  text-align: right;
+  padding-top: 45px;
+  font-size: 34px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#nav-pc > a {
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+#nav-pc > a:link {
+  color: #000;
+}
+
+#nav-pc > a:visited {
+  color: #000;
+}
+
+#nav-pc > a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+#nav-pc > a:active {
+  color: #000;
+}
+
+/* メインビジュアル */
+#main-visual {
+  width: 960px;
+  height: 400px;
+}
+
+#main-message {
+  width: 100%;
+  flex-shrink: 0;
+}
