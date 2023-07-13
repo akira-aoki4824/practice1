@@ -1,143 +1,13 @@
-.wf-mplus1p {
-   font-family: "M PLUS 1p";
-}
+@media screen and (min-width: 768px) {
+
+
 
 *body {
-  margin: auto;
-}
-
-@media screen and (min-width:768px) {
-  #content {
-    padding: 30px;
-  }
   
-
-
-
-.header-1 {
-  display: flex;
-  width: 960px;
-  margin: 30px auto;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.title {
-  outline: 1px solid #101010;
-  padding: 0 28px;
-  font-weight: bold;
-  margin-left: 20px;
-  line-height: normal;
-  /* font-size: 34px; */
-}
-
-.nav ul {
-  display: flex;
-  margin-right: 20px;
-}
-
-.nav li {
-  font-size: 34px;
-  font-weight: bold;
-  margin: 0 20px;
-  list-style: none;
-}
-
-.nav li a {
+  width: 1280px;
+  /* margin: 10px; */
+  font-family: "M PLUS 1p";
   color: #101010;
-  text-decoration: none;
-}
-
-nav li a:hover {
-  cursor: pointer;
-}
-
-.main {
-  display: flex;
-  /* background-color: blue; */
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.main img {
-  /* /* width: 960px; */
-  height: 400px; */
-  object-fit: cover;
-}
-
-.title-1 {
-  font-size: 34px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 60px;
-}
-
-.about-profile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-img img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  /* background-color: white; */
-  margin-right: 20px;
-}
-
-.profile h3 {
-  color: #101010;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 12px 0 12px 30px;
-}
-
-.profile ul li {
-  color: #101010;
-  font-size: 18px;
-  font-weight: 400;
-  margin-left: 20px;
-}
-
-.camera {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.location {
-  width: 180px;
-  height: 300px;
-  margin: 18px;
-}
-
-.location img {
-  width: 180px;
-  height: 135px;
-}
-
-.location p {
-  font-size: 18px;
-  text-align: center;
-}
-
-#footer {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 50px;
-  font-weight: 400;
-}
-
-}
-
-
-@media screen and (max-width:767px) {
-  
-/* header */
-.header {
-  width: 767px;
 }
 
 
@@ -145,57 +15,289 @@ nav li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 30px;
-}
-
-.title {
-  padding: 10px 20px;
-  outline: 1px solid black;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .title h1 {
-  margin: 0;
+  border: 1px solid #101010;
+  padding: 12px 30px;
+  font-size: 34px;
+  font-weight: 700;
 }
 
 .nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  margin-right: 30px;
+display: flex;
 }
 
 .nav ul li {
   list-style: none;
-  margin-left: 30px; 
+  margin-left: 35px;
 }
 
-.nav li a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #101010;
+.nav ul li a {
   font-size: 34px;
-}
-
-
-
-.nav ul li:hover {
-
+  font-weight: 700;
+  color: #101010;
+  text-decoration: none;
 }
 
 
 /* main */
-.main {
+
+.main img {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  object-fit: cover;
+  margin-bottom: 50px;
+} 
+
+
+/* about */
+
+.about {
+  text-align: center;
+}
+
+.title-1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-profile {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.main img {
-  width: 767px;
-  height: 400px;
+.about-img img {
+  width: 141px;
+  height: 142px;
+  border-radius: 50%;
+}
+
+.profile {
+  text-align: left;
+}
+
+.profile h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 20px;
+}
+
+.profile ul {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.profile li {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+}
+
+.camera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding-top: 30px;
+}
+
+.location {
+  width: 180px;
+  height: 260px;
+  margin: 0 20px;
+}
+
+.location img {
+  width: 100%
+}
+
+.location p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 2px;
+}
+
+footer {
+  width: 100%;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+#footer {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+}
+
+
+@media screen and (max-width: 767px) {
+/* スマホ用 */
+  /* header */
+
+  .body {
+    width: 767px;
+    font-family: "M PLUS 1p";
+    color: #101010;
+
+  }
+
+  header {
+    width: 767px;
+  }
+
+  .header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .title h1 {
+    font-size: 34px;
+    font-weight: 700;
+    border:  1px solid #101010;
+    padding: 10px 30px;
+    text-align: center;
+  }
+
+  .nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav li a {
+    margin-left: 20px;
+    font-size: 34px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #101010;
+  }
+
+  /* main */
+
+  .main {
+    width: 767px;
+  }
+
+  .main img {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    object-fit: cover;
+    padding-bottom: 30px;
+  }
+
+
+  /* about */
+
+  .about {
+    width: 767px;
+  } 
+
+  .title-1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    width: 767px;
+  }
+
+  .about-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 767px;
+    margin-bottom: 20px;
+  }
+
+  .about-img img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+  }
+
+  .profile h3 {
+    width: 445px;
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .profile ul {
+    width: 445px;
+    margin-left: 20px;
+  }
+
+  .profile li {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  /* workd */
+
+  section {
+    width: 767px;
+  }
+
+
+  .camera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* margin-left: 10px; */
+  }
   
-}
+  .location {
+    width: 767px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .camera img {
+    width: 645px;
+    height: 490px;
+  }
+
+  .camera p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  /* fotter */
+
+  footer {
+    /* text-align: center; */
+  }
+
+  #footer {
+    width: 767px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
 
 }
+
